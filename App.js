@@ -94,7 +94,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#fcfbf4',
     padding: 24,
     paddingTop: 60,
   },
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
 
   summaryCard: {
     flex: 1,
-    backgroundColor: '#ffffff',
+    backgroundColor: '#fcfbf4',
     padding: 20,
     borderRadius: 12,
   },
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
   },
 
   taskCard: {
-    backgroundColor: '#ffffff',
+    backgroundColor: '#fcfbf4',
     padding: 18,
     borderRadius: 12,
     marginBottom: 12,
@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
   },
 
   buttonText: {
-    color: '#ffffff',
+    color: '#fcfbf4',
     fontSize: 16,
     fontWeight: 'bold',
   },
