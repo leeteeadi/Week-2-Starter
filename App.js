@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: '#355E45',
+    backgroundColor: '#2d3561',
     padding: 16,
     borderRadius: 10,
     marginTop: 15,
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
 
   backButton: {
     fontSize: 16,
-    color: '#355E45',
+    color: '#2d3561',
     marginBottom: 20,
   },
 });
