@@ -64,9 +64,9 @@ export default function App() {
             </Text>
           </Pressable>
         </>
-      )
+      )}
 
-            {currentScreen === 'addTask' && (
+      {currentScreen === 'addTask' && (
         <>
           <Pressable
             onPress={() => setCurrentScreen('home')}
@@ -90,3 +90,80 @@ export default function App() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f5f5f5',
+    padding: 24,
+    paddingTop: 60,
+  },
+
+  title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+  },
+
+  subtitle: {
+    fontSize: 16,
+    marginTop: 5,
+    marginBottom: 30,
+  },
+
+  summaryContainer: {
+    flexDirection: 'row',
+    gap: 15,
+    marginBottom: 30,
+  },
+
+  summaryCard: {
+    flex: 1,
+    backgroundColor: '#ffffff',
+    padding: 20,
+    borderRadius: 12,
+  },
+
+  number: {
+    fontSize: 28,
+    fontWeight: 'bold',
+  },
+
+  sectionTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 15,
+  },
+
+  taskCard: {
+    backgroundColor: '#ffffff',
+    padding: 18,
+    borderRadius: 12,
+    marginBottom: 12,
+  },
+
+  taskTitle: {
+    fontSize: 17,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+
+  button: {
+    backgroundColor: '#355E45',
+    padding: 16,
+    borderRadius: 10,
+    marginTop: 15,
+    alignItems: 'center',
+  },
+
+  buttonText: {
+    color: '#ffffff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+
+  backButton: {
+    fontSize: 16,
+    color: '#355E45',
+    marginBottom: 20,
+  },
+});
